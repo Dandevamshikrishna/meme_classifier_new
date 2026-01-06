@@ -1,0 +1,82 @@
+[
+  {
+    "image_path": "data/raw/memotion/images/image_4557.png",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.999976634979248,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_4633.jpg",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9999587535858154,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_3422.png",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9998610019683838,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_3132.png",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9998195767402649,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_2901.png",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9990653395652771,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_3122.jpg",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9990449547767639,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_5197.jpg",
+    "true_label": 1,
+    "predicted_label": 0,
+    "confidence": 0.0022643813863396645,
+    "true_label_name": "hateful",
+    "predicted_label_name": "not_hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_6529.jpg",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9966564178466797,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_2945.png",
+    "true_label": 0,
+    "predicted_label": 1,
+    "confidence": 0.9932124614715576,
+    "true_label_name": "not_hateful",
+    "predicted_label_name": "hateful"
+  },
+  {
+    "image_path": "data/raw/memotion/images/image_3758.jpg",
+    "true_label": 1,
+    "predicted_label": 0,
+    "confidence": 0.00994281005114317,
+    "true_label_name": "hateful",
+    "predicted_label_name": "not_hateful"
+  }
+]

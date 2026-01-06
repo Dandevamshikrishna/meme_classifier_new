@@ -1,0 +1,35 @@
+seed: 42
+
+data:
+  splits_file: 'data/splits_mini.json'  # New split file
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+model:
+  image_encoder: 'openai/clip-vit-base-patch32'
+  text_encoder: 'sentence-transformers/all-MiniLM-L6-v2'
+  dropout: 0.3
+
+training:
+  batch_size: 8           # Smaller batches
+  num_epochs: 5           # Just 5 epochs!
+  learning_rate: 0.001    # Higher LR for faster convergence
+  weight_decay: 0.0001
+  early_stopping_patience: 3
+  use_amp: false          # Disable for CPU
+  gradient_clip: 1.0
+
+text:
+  use_ocr: false          # No OCR
+  ocr_languages: ['en']
+
+loss:
+  pos_weight: 1.0         # No class weighting
+
+paths:
+  checkpoints: 'checkpoints'
+  logs: 'logs'
+  results: 'results'
+
+device: 'cpu'
